@@ -9,10 +9,10 @@ function privacypolicy() {
       if (music.paused) {
         await music.play();
         music.volume = 0.3;
-        btn.textContent = "Pause Music ⏸";
+        btn.textContent = "II";
       } else {
         music.pause();
-        btn.textContent = "Play Music 🎵";
+        btn.textContent = "▶︎";
       }
     } catch (err) {
       console.log("Audio blocked:", err);

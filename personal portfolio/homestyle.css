@@ -30,6 +30,8 @@ body {
     border:solid 1px #c0aa9f;
     color:#47240d;
     font-size:30px;
+    width:30px;
+    height:30px;
 }
     .dropdown {
       position: relative;

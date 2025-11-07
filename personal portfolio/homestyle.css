@@ -19,7 +19,6 @@ body {
     font-weight: bold;
     background-color: #c0aa9f;
     padding:15px;
-    height:70px;
 }
 @media (min-width: 600px) {
     #navbar-mobile {
@@ -30,11 +29,12 @@ body {
     background-color: #c0aa9f;
     border:solid 1px #c0aa9f;
     color:#47240d;
-    font-size:25px;
+    font-size:30px;
 }
     .dropdown {
       position: relative;
       display: inline-block;
+      float: left;
     }
 
     .dropdown-content {

@@ -1,0 +1,223 @@
+body {
+    background-color: #dfcdc3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #47240d;
+    margin:0;
+}
+#navbar {
+    font-weight: bold;
+    background-color: #c0aa9f;
+    padding:15px;
+    text-align:center;
+}
+@media (max-width: 600px) {
+    #navbar {
+        display:none;
+    }
+}
+#navbar-mobile {
+    font-weight: bold;
+    background-color: #c0aa9f;
+    padding:15px;
+}
+@media (min-width: 600px) {
+    #navbar-mobile {
+        display:none;
+    }
+}
+#menubutton {
+    background-color: #c0aa9f;
+    border:solid 1px #c0aa9f;
+    color:#47240d;
+    font-size:30px;
+}
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      float: left;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #c0aa9f;
+      min-width: 110px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .dropdown:focus-within .dropdown-content {
+      display: block;
+}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+      color:#47240d;
+      position: relative;
+    }
+    .dropdown-content a:hover,
+    .dropdown-content a:active {
+      background-color: #47240d;
+      color:#c0aa9f;
+      transition-duration:0.2s;
+    }
+    .dropdown-content a::after {
+        content: "\2764";
+        position: absolute;
+        opacity: 0;
+        transition: opicity 0.2s, transform 0.2s;
+    }
+    .dropdown-content a:hover::after,
+    .dropdown-content a:active::after {
+        opacity: 1;
+        transform: translateX(7px);
+    }
+#myportfolio {
+    text-align: center;
+}
+#myportfolio-mobile {
+    text-align: center;
+}
+.navbtns {
+    background-color: #c0aa9f;
+    border: #c0aa9f solid 1px;
+    color:#47240d;
+    font-size:14px;
+    font-weight: bold;
+    width:90px;
+}
+.navbtns:hover {
+color:#81461c;
+text-decoration: underline;
+}
+#header {
+    text-align: center;
+}
+#description {
+font-weight: 500;
+font-size:16px;
+}
+@media (max-width: 600px) {
+    #description {
+        font-size: 13px;
+    }
+}
+.emojis {
+    width: 25px;
+    height: 25px;
+}
+#character-img1 {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+}
+#character-img2 {
+    width: 100px;
+    height: 100px;
+    float:right;
+    padding-right: 30px;
+}
+#aboutme {
+    text-align: center;
+}
+#aboutmetxt {
+    margin: 10px;
+}
+#myskills {
+    padding-left: 20px;
+}
+@font-face {
+  font-family: "Minecraftia";
+  src: url("fonts/Minecraftia-Regular.ttf");
+}
+.skillbtns {
+  font-family: "Minecraftia", monospace;
+  font-size: 13px;
+  color:#47240d;
+  clip-path: polygon(
+    2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px),
+    calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px
+  );
+  cursor: pointer;
+  border:2px solid #47240d;
+  height: 30px;
+  padding:5px
+}
+.skillbtns:hover {
+  transform: translateY(6px);
+}
+@media (min-width: 600px) {
+    .skillbtns {
+        font-size:16px;
+        width:20vmin;
+        height:40px;
+    }
+}
+.red {
+    background-color: #dd977c;
+}
+.purple {
+    background-color: #c7a8d3;
+}
+.green {
+    background-color: #98b18d;
+}
+.beige {
+    background-color: #cab0a0;
+}
+#myprojects {
+    padding-left: 20px;
+    display: block;
+    gap:50px;
+}
+@media (min-width: 600px) {
+    #myprojects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#myprojectstxt {
+    padding-left:20px;
+}
+.cards {
+    background-color: #dfc5b7;
+    border:1px solid #dfc5b7;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+}
+@media (min-width: 600px) {
+    .cards {
+        margin-top: 15px;
+    }
+}
+.cards:hover {
+    transform: translateY(6px);
+}
+.project-img {
+    border:2px solid #47240d;
+    border-radius: 7px;
+    width:190px;
+    height: 120px;
+}
+.project-title {
+    font-size:18px;
+    font-weight:bold;
+    color:#47240d;
+    text-decoration: underline #dfc5b7;
+}
+.project-description {
+    color:#47240d;
+    text-decoration: underline #dfc5b7;
+}
+#footer {
+    background-color: #c0aa9f;
+    text-align: center;
+}

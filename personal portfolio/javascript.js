@@ -18,3 +18,6 @@ function privacypolicy() {
       console.log("Audio blocked:", err);
     }
   });
+function playSound() {
+  document.getElementById("btnSound").play();
+}

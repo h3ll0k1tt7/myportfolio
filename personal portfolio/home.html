@@ -11,7 +11,7 @@
         <div id="navbar">
             <button class="navbtns" onclick="window.location.href='home.html'">Home</button>|
             <button class="navbtns" onclick="window.location.href='projects.html'">Projects</button>|
-            <button class="navbtns" onclick="window.location.href='about.html'">About Me</button>|
+            <button class="navbtns" onclick="window.location.href='about.html'">About</button>|
             <button class="navbtns" onclick="window.location.href='contact.html'">Contact</button>
             <p id="myportfolio">
                 <img class="red-heart-emoji" src="images/red-heart-emoji.png" alt="heart emoji">
@@ -25,7 +25,7 @@
                 <div class="dropdown-content">
                     <a href="home.html">Home</a>
                     <a href="projects.html">Projects</a>
-                    <a href="about.html">About Me</a>
+                    <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                 </div>
             </div>
@@ -69,10 +69,13 @@
                 <img class="emojis" src="images/plant-emoji.png" alt="plant emoji"> 
                 My Skills
             </h2>
-            <button class="skillbtns red">HTML</button>
-            <button class="skillbtns purple">CSS</button>
-            <button class="skillbtns green">Digital Art</button>
-            <button class="skillbtns beige">UI Design</button>
+            <button class="skillbtns red" onclick="playSound()">HTML</button>
+            <button class="skillbtns purple" onclick="playSound()">CSS</button>
+            <button class="skillbtns green" onclick="playSound()">Digital Art</button>
+            <button class="skillbtns beige" onclick="playSound()">UI Design</button>
+            <audio id="btnSound">
+                <source src="audio/click-sound.mp3" type="audio/mpeg">
+            </audio>
         </div><br>
         <h2 id="myprojectstxt">
             <img class="emojis" src="images/mushroom-emoji.png" alt="mushroom emoji">
@@ -104,7 +107,7 @@
         <div id="footer"><br>
             <p>© 2025 Ava Mreish. All rights reserved.</p>
             <nav>
-                <a href="about.html">About Me </a>|
+                <a href="about.html">About </a>|
                 <a href="#" onclick="privacypolicy(); return false;">Privacy Policy </a>|
                 <a href="contact.html">Contact</a>
             </nav>

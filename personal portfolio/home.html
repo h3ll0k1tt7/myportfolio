@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="homestyle.css">
+        <script src="javascript.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <button class="navbtns" onclick="window.location.href='home.html'">Home</button>|
+            <button class="navbtns" onclick="window.location.href='projects.html'">Projects</button>|
+            <button class="navbtns" onclick="window.location.href='about.html'">About Me</button>|
+            <button class="navbtns" onclick="window.location.href='contact.html'">Contact</button>
+            <p id="myportfolio">My Portfolio</p>
+        </div>
+        <div id="navbar-mobile">
+            <div class="dropdown">
+                <button id="menubutton" tabindex="0">≡</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About Me</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <p id="myportfolio-mobile">My Portfolio</p>
+        </div>
+        <div id="header">
+            <h1>Ava Mreish</h1>
+            <p id="description">Web Developer - Digital artist <img class="emojis" src="images/flower-emoji.png" ></p>
+        </div>
+        <img id="character-img1" alt="" src="images/flower-emoji.png">
+        <img id="character-img2" alt="" src="images/flower-emoji.png">
+        <div id="aboutme">
+            <h2>🌼About Me</h2>
+            <p id="aboutmetxt">
+                I love creating small, cozy digital spaces insipired by
+                nature with calm colors, simple layouts, and a touch of digital art.</p>
+            <p id="aboutmetxt">
+                I focus on building interfaces that feel warm and gentle, 
+                like a quiet corner of the internet where everything slows down.</p>
+            <p id="aboutmetxt">   
+                My projects aim to blend funcionality with emotions, making
+                users feel welcomed, relaxed, and seen ✨</p>
+            </p><br>
+        </div>
+        <div id="myskills">
+            <h2>🌱 My Skills</h2>
+            <button class="skillbtns red">HTML</button>
+            <button class="skillbtns purple">CSS</button>
+            <button class="skillbtns green">Digital Art</button>
+            <button class="skillbtns beige">UI Design</button>
+        </div><br>
+        <h2 id="myprojectstxt">🍄 My Projects</h2>
+        <div id="myprojects">
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+        </div><br><br><br>
+        <div id="footer"><br>
+            <p>© 2025 Ava Mreish. All rights reserved.</p>
+            <nav>
+                <a href="about.html">About Me </a>|
+                <a href="#" onclick="privacypolicy(); return false;">Privacy Policy </a>|
+                <a href="contact.html">Contact</a>
+            </nav>
+            <address>
+                Email: <a href="mailto:avamreish@gmail.com">avamreish@gmail.com</a>
+            </address>
+            <p><a href="#top"> Back to top ⬆️ </a></p><br>
+        </div>
+    </body>
+</html>

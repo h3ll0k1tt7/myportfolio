@@ -1,0 +1,67 @@
+
+body {
+    background-color: #dfcdc3;
+    color: #47240d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.emojis {
+    width: 20px;
+    height: 20px;
+}
+@font-face {
+  font-family: "Minecraftia";
+  src: url("fonts/Minecraftia-Regular.ttf");
+}
+#container {
+    font-family: "Minecraftia", monospace;
+    padding:10px;
+    background-color: #c0aa9f;
+    width: 300px;
+    height:400px;
+    margin: 30px auto 0 auto;
+    border: 2px solid #47240d;
+    clip-path: polygon(
+    2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px),
+    calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px);
+}
+#contactme {
+    font-size:20px;
+    text-align: center;
+}
+label {
+    font-size:13px;
+    padding-left:5%;
+}
+input {
+    width:98%;
+    height:25px;
+    border: 1px solid #47240d;
+    border-radius: 7px;
+    color:#47240d;
+}
+textarea {
+    width:98%;
+    height:100px;
+    border: 1px solid #47240d;
+    color:#47240d;
+}
+#sendmessage {
+  font-family: "Minecraftia", monospace;
+  background-color: lightpink;
+  font-size: 13px;
+  color:#47240d;
+  clip-path: polygon(
+    2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px),
+    calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px);
+  border:2px solid #47240d;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+#sendmessage:hover {
+    transform: translatey(5px);
+}
+#footer {
+    background-color: #c0aa9f;
+    text-align: center;
+}

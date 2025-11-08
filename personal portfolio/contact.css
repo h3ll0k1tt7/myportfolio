@@ -8,6 +8,15 @@ body {
     width: 20px;
     height: 20px;
 }
+#langbtn {
+    float:right;
+    margin: 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#langbtn:hover {
+    transform: translateY(5px);
+}
 @font-face {
   font-family: "Minecraftia";
   src: url("fonts/Minecraftia-Regular.ttf");

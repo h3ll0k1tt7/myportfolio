@@ -14,14 +14,14 @@ let resetTimeout;
   if (music.paused) {
   await music.play();
   music.volume = 0.3;
-  icon.src = "./images/play-symbol.png"; 
+  icon.src = "../images/play-symbol.png"; 
 
   } else {
     music.pause();
-    icon.src = "./images/pause-symbol.png"; 
+    icon.src = "../images/pause-symbol.png"; 
 
   resetTimeout = setTimeout(() => {
-    icon.src = "./images/music-note-emoji.png"; 
+    icon.src = "../images/music-note-emoji.png"; 
                     }, 5000);
               }
                  });

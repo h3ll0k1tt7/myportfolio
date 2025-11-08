@@ -22,7 +22,7 @@ let resetTimeout;
 
   resetTimeout = setTimeout(() => {
     icon.src = "./images/music-note-emoji.png"; 
-                    }, 5000);
+                    }, 2000);
               }
                  });
 

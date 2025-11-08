@@ -8,8 +8,12 @@ body {
     width: 20px;
     height: 20px;
 }
+#arrow-btn {
+    float: left;
+    margin: 15px;
+}
 #langbtn {
-    float:right;
+    float: right;
     margin: 15px;
     background-color: transparent;
     border: 1px solid transparent;

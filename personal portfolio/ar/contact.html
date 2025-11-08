@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="../contact.css">
+        <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+    </head>
+    </head>
+    <body style="font-family: 'Cairo', sans-serif;">
+        <a href="home.html">
+            <img class="emojis" src="../images/back-arrow.png" alt="back arrow">
+        </a>
+        <div class="container container-ar">
+            <p id="contactme">تواصل معي</p>
+            <form action="https://formspree.io/f/xeovjoqk" method="post">
+                <label for="name">الاسم</label><br>
+                <input type="text" id="name" name="Name" required><br>
+
+                <label for="email">البريد الالكتروني</label><br>
+                <input type="email" id="email" name="Email" required><br>
+
+                <label for="message">الرسالة</label><br>
+                <textarea type="message" name="Message" required></textarea><br><br>
+
+                <button type="submit" class="sendmessage sendmessage-ar">أرسل الرسالة</button>
+            </form>
+        </div><br><br><br>
+        <div id="footer"><br>
+            <p>.أيفا مريش. جميع الحقوق محفوظة</p>
+            <nav>
+                <a href="about.html">من انا </a>|
+                <a href="#" onclick="privacypolicy(); return false;">سياسة الخصوصية </a>|
+                <a href="contact.html">تواصل معي</a>
+            </nav>
+            <address> 
+                <a href="mailto:avamreish@gmail.com">avamreish@gmail.com</a> :البريد الالكتروني
+            </address>
+            <p><a href="#top">⬅️ العودة للرئيسية</a></p><br>
+        </div>
+    <script src="../javascript.js"></script>
+    </body>
+</html>

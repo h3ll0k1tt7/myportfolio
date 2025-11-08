@@ -102,6 +102,9 @@ body {
     font-weight: bold;
     width:90px;
 }
+.navbtns-ar {
+    font-family: 'Cairo', sans-serif;
+}
 .navbtns:hover {
 color:#81461c;
 text-decoration: underline;

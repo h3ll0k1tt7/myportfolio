@@ -12,17 +12,20 @@ body {
   font-family: "Minecraftia";
   src: url("fonts/Minecraftia-Regular.ttf");
 }
-#container {
+.container {
     font-family: "Minecraftia", monospace;
     padding:10px;
     background-color: #c0aa9f;
     width: 300px;
-    height:400px;
+    height:auto;
     margin: 30px auto 0 auto;
     border: 2px solid #47240d;
     clip-path: polygon(
     2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px),
     calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px);
+}
+.container-ar {
+    font-family: 'Cairo', sans-serif;
 }
 #contactme {
     font-size:20px;
@@ -45,7 +48,7 @@ textarea {
     border: 1px solid #47240d;
     color:#47240d;
 }
-#sendmessage {
+.sendmessage {
   font-family: "Minecraftia", monospace;
   background-color: lightpink;
   font-size: 13px;
@@ -54,11 +57,14 @@ textarea {
     2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px),
     calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px);
   border:2px solid #47240d;
-  height: 30px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
-#sendmessage:hover {
+.sendmessage-ar {
+    font-family: 'Cairo', sans-seif;
+}
+.sendmessage:hover {
     transform: translatey(5px);
 }
 #footer {

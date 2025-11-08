@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="../homestyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+    </head>
+    <body style="font-family: 'Cairo', sans-serif;">
+        <div id="navbar">
+            <button class="navbtns" onclick="window.location.href='home.html'">الرئيسية</button>|
+            <button class="navbtns" onclick="window.location.href='projects.html'">أعمالي</button>|
+            <button class="navbtns" onclick="window.location.href='about.html'">من أنا</button>|
+            <button class="navbtns" onclick="window.location.href='contact.html'">تواصل معي</button>
+            <p id="myportfolio">
+                <img class="red-heart-emoji" src="../images/red-heart-emoji.png" alt="heart emoji">
+                معرض أعمالي
+                <img class="red-heart-emoji" src="../images/red-heart-emoji.png" alt="heart emoji">
+            </p>
+        </div>
+        <div id="navbar-mobile">
+            <div class="dropdown">
+                <button id="menubutton" tabindex="0">≡</button>
+                <div class="dropdown-content">
+                    <a href="home.html">الرئيسية</a>
+                    <a href="projects.html">أعمالي</a>
+                    <a href="about.html">من أنا</a>
+                    <a href="contact.html">تواصل معي</a>
+                </div>
+            </div>
+            <h3 id="myportfolio">
+                <img class="red-heart-emoji" src="../images/red-heart-emoji.png" alt="heart emoji">
+                معرض أعمالي
+                <img class="red-heart-emoji" src="../images/red-heart-emoji.png" alt="heart emoji">
+            </h3>
+        </div>
+            <button id="musicBtn">
+                <img id="music-note-emoji" src="../images/music-note-emoji.png" alt="music note emoji">
+                <audio id="bgMusic">
+                <source src="../audio/bgmusic.mp3" type="audio/mpeg">
+            </audio>
+            </button>
+            <button id="langbtn" onclick="window.location.href='../home.html'">
+                <img class="emojis" src="../images/planet-emoji.png" alt="planet emoji">
+            </button>
+        <div id="header">
+            <h1>أيفا مريش</h1>
+            <p id="description">مطورة ويب - فنانة رقمية 
+                <img class="emojis" src="../images/flower-emoji.png" ></p>
+        </div>
+        <img id="character-img1" alt="" src="../images/character-drawing1.png">
+        <img id="character-img2" alt="" src="../images/mushroom-emoji.png">
+        <div id="aboutme">
+            <h2>
+                <img class="emojis" src="../images/white-flower-emoji.png" alt="white flower emoji">
+                عني
+            </h2>
+            <p id="aboutmetxt">
+                .أحب انشاء مساحات رقمية صغيرة ودافئة مستوحاة من الطبيعة، بالوان هادئة، تصاميم بسيطة ولمسة من الفن الرقمي</p>
+            <p id="aboutmetxt">
+                .أركز على بناء واجهات تشعر بالدفء واللطف، مثل ركن هادئ على الانترنت حيث يبطئ كل شىء</p>
+            <p id="aboutmetxt">   
+                .تهدف مشاريعي الى دمج الفعالية مع العاطفة، ليشعر المستخدمون بالترحيب والراحة والسكينة
+                <img class="emojis" src="../images/sparkling-emoji.png" alt="sparkling emoji">
+            </p>
+            </p><br>
+        </div>
+        <div id="myskills">
+            <h2>
+                <img class="emojis" src="../images/plant-emoji.png" alt="plant emoji"> 
+                مهاراتي
+            </h2>
+            <button class="skillbtns red" onclick="playSound()">HTML</button>
+            <button class="skillbtns purple" onclick="playSound()">CSS</button>
+            <button class="skillbtns green" onclick="playSound()">Digital Art</button>
+            <button class="skillbtns beige" onclick="playSound()">UI Design</button>
+            <audio id="btnSound">
+                <source src="../audio/click-sound.mp3" type="audio/mpeg">
+            </audio>
+        </div><br>
+        <h2 id="myprojectstxt">
+            <img class="emojis" src="../images/mushroom-emoji.png" alt="mushroom emoji">
+            أعمالي 
+        </h2>
+        <div id="myprojects">
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img class="project-img" src="" alt="">
+                    <p class="project-title">Cozy To-Do List</p>
+                    <p class="project-description">A pastel themed cozy productivity site</p>
+                </a>
+            </div>
+        </div><br><br><br>
+        <div id="footer"><br>
+            <p>.أيفا مريش. جميع الحقوق محفوظة</p>
+            <nav>
+                <a href="about.html">من انا </a>|
+                <a href="#" onclick="privacypolicy(); return false;">سياسة الخصوصية </a>|
+                <a href="contact.html">تواصل معي</a>
+            </nav>
+            <address> 
+                <a href="mailto:avamreish@gmail.com">avamreish@gmail.com</a> :البريد الالكتروني
+            </address>
+            <p><a href="#top"> العودة للاعلى ⬆️ </a></p><br>
+        </div>
+    <script src="../javascript.js"></script>
+    </body>
+</html>

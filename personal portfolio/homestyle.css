@@ -82,6 +82,15 @@ body {
         opacity: 1;
         transform: translateX(7px);
     }
+#langbtn {
+    float:right;
+    margin: 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#langbtn:hover {
+    transform: translateY(5px);
+}
 #myportfolio {
     text-align: center;
 }

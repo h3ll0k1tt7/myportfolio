@@ -1,5 +1,5 @@
 function privacypolicy() {
-    alert("Your privacy matters ❤ No cookies. No trackers. No data collection. Messages sent through my contact form are handled by Formspree and used only to reply. I never sell or share you information.");
+    alert(" خصوصيتك مهمة. لا أستخدم ملفات تعريف ارتباط، أو أدوات تتبع أو أي جمع للبيانات. الرسائل المرسلة عبر نموزج التواصل تتم ادارتها بواسطة فورمسبري وتستخدم فقط للرد عليك. لن أقوم ببيع أو مشاركت معلوماتك مع أي جهة");
 }
 
 const music = document.getElementById("bgMusic");
